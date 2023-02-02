@@ -1,0 +1,76 @@
+@import url("reset.css");
+
+* {
+   color: blue;
+}
+
+div {
+   color: red;
+}
+
+a {
+	color: green;
+}
+h1{
+   color: brown;
+}
+h2{
+   color: blueviolet;
+}
+h3{
+   color: cadetblue;
+}
+h4{
+   color:crimson
+}
+h5 {
+   color: orange;
+}
+
+.question{
+   color: rgb(84, 37, 153);
+}
+#author-photo {
+	color: lightslategray;
+}
+
+
+.title.positive{
+   color: rgb(121, 74, 0);
+}
+
+#logic,
+#help {
+	color: red;
+}
+
+.second p {
+	color: black;
+}
+
+.fifth .lang {
+   color: rgb(198, 237, 24);
+}
+
+.first * {
+   color: green;
+}
+
+.first > h5 {
+	color: orange;
+}
+
+.lang ~ p {
+	color: salmon;
+}
+
+.lang + p {
+	color: hotpink;
+}
+
+p.quote {
+	color: rgb(36, 44, 23)
+}
+[class*="__title"] {
+	color: green;
+}
