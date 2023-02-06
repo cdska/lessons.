@@ -1,0 +1,187 @@
+@import url("reset.css");
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Karla:ital,wght@0,500;0,700;1,500&family=Mukta:wght@400;500;700&display=swap');
+
+/* Підключення вручну */
+
+@font-face {
+   font-family: 'Caviar Dreams';
+   src: url('../fonts/CaviarDreams.woff2') format('woff2'), url('../fonts/CaviarDreams.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Caviar Dreams';
+   src: url('../fonts/CaviarDreams-Bold.woff2') format('woff2'), url('../fonts/CaviarDreams-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Caviar Dreams';
+   src: url('../fonts/CaviarDreams-Italic.woff2') format('woff2'), url('../fonts/CaviarDreams-Italic.woff') format('woff');
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Brooklyn Normal';
+   src: url('../fonts/Brooklyn-Normal.woff2') format('woff2'), url('../fonts/Brooklyn-Normal.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Brooklyn';
+   src: url('../fonts/Brooklyn-Bold.woff2') format('woff2'), url('../fonts/Brooklyn-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Chequers';
+   src: url('../fonts/Chequers-Regular.woff2') format('woff2'), url('../fonts/Chequers-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Chequers';
+   src: url('../fonts/Chequers-Bold.woff2') format('woff2'), url('../fonts/Chequers-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Chequers';
+   src: url('../fonts/Chequers-Italic.woff2') format('woff2'), url('../fonts/Chequers-Italic.woff') format('woff');
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+.test {
+   color: red;
+}
+.font1 {
+   font-family: 'Mukta', 'Arial', sans-serif;
+   font-weight: 400;
+}
+.font2 {
+   font-family: 'Mukta', 'Arial', sans-serif;
+   font-weight: 500;
+}
+.font3 {
+   font-family: 'Mukta', 'Arial', sans-serif;
+   font-weight: 700;
+}
+.font4 {
+   font-family: 'Karla', 'Arial', sans-serif;
+   font-weight: 500;
+}
+.font5 {
+   font-family: 'Karla', 'Arial', sans-serif;
+   font-weight: 500;
+   font-style: italic;
+}
+.font6 {
+   font-family: 'Karla', 'Arial', sans-serif;
+   font-weight: 700;
+}
+.font7 {
+   font-family: 'Caveat', 'Arial', sans-serif;
+   font-weight: 400;
+}
+.font8 {
+   font-family: 'Caveat', 'Arial', sans-serif;
+   font-weight: 500;
+}
+.font9 {
+   font-family: 'Caveat', 'Arial', sans-serif;
+   font-weight: 700;
+}
+.font10 { font-family: 'Caviar Dreams', 'Arial', sans-serif;
+   font-weight: 400; 
+}
+.font11 { font-family: 'Caviar Dreams', 'Arial', sans-serif;
+   font-weight: 400; 
+   font-style: italic;
+}
+.font12 { font-family: 'Caviar Dreams', 'Arial', sans-serif;
+   font-weight: 700; 
+}
+.font13 { font-family: 'Brooklyn Normal', 'Arial', sans-serif;
+   font-weight: 400; 
+}
+.font14 { font-family: 'Brooklyn', 'Arial', sans-serif;
+   font-weight: 700; 
+}
+.font15 { font-family: 'Chequers', 'Arial', sans-serif;
+   font-weight: 400; 
+}
+.font16 { font-family: 'Chequers', 'Arial', sans-serif;
+   font-weight: 400; 
+   font-style: italic;
+}
+.font17 { font-family: 'Chequers', 'Arial', sans-serif;
+   font-weight: 700; 
+}
+h1 {
+   text-align: center;
+}
+.t1 {
+   text-align: left;
+} 
+.t2 {
+   text-align: right;
+} 
+.t3 {
+   text-align: justify;
+} 
+.t4 {
+   text-decoration: line-through;
+} 
+.t5 {
+   text-decoration: overline;
+} 
+.t6 {
+   text-decoration: underline;
+} 
+.t7 {
+   text-shadow: 1px -1px 4px #000, 2px -2px 4px rgba(0, 255, 64, 0.606);
+} 
+.t8 {
+   text-transform: capitalize;
+} 
+.t9 {
+   text-transform: uppercase;
+} 
+.t10 {
+   text-transform: lowercase;
+} 
+.t11 {
+   font-size: 12px;
+   line-height: 1.4;
+} 
+.t12 {
+   text-indent: 20px;
+} 
+.t13 {
+   letter-spacing: 10px;
+} 
+.t14 {
+   white-space: nowrap;
+} 
+.t15 {
+   word-spacing: 10px;
+} 
+
+
